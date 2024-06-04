@@ -1,0 +1,85 @@
+body{
+    letter-spacing: 1PX;
+    background-color: #50e8f3;
+    font-family: verdana,arial,sans-serif;
+    color: #666666;
+    background-attachment: fixed;
+    background-image: rgb(1,41,131);
+}
+header{
+    height: 72px;
+    font-family: georgia,serif;
+    color: #FFFFFF;
+    background-color: #002171;
+    background-position: right;
+    background-image: linear-gradient(to right,darkblue,darkblue,darkblue,darkblue,darkblue,transparent),url(image/sunset_3.png);
+    background-repeat: no-repeat; 
+}
+h1{
+    
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+nav{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+}
+
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.cottages{
+    font-weight: bold;
+    color: #002171;
+}
+#wrapper{
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    width: 80%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.pacific{
+    color:#1976D2;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-family:Georgia,serif;
+    font: size 1.2em;
+}
+#homehero{
+    height: 500px;
+    background-size: 100% 100%;
+    background-image: url(image/coast.jpg);
+    background-repeat: no-repeat;
+}
+#cottageshero{
+    height: 500px;
+    background-size: 100% 100%;
+    background-image: url(image/cottages.jpg);
+}
+#activitieshero{
+    height: 500px;
+    background-size: 100% 100%;
+    background-image: url(image/activities.jpg);
+}
+footer{
+    text-align: center;
+    font-size: 0.7em; ;
+    font-style:italic;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+ }
